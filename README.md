@@ -26,4 +26,4 @@ You can:
 
 ---
 
-## 📂 Project Structure
+## Deployed using vercel - https://kanban-board-o1dfxkgtf-swathis-projects-96e85107.vercel.app/
