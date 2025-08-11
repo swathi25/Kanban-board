@@ -1,0 +1,48 @@
+.board {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+.task input {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.add-task-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
+}
+
+.add-task-btn:hover {
+  text-decoration: underline;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
